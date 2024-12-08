@@ -4,7 +4,6 @@ import hero1 from "@/app/images/hero1.png";
 import hero2 from "@/app/images/hero2.png";
 import hero3 from "@/app/images/hero3.png";
 import hero4 from "@/app/images/hero4.png";
-import hero5 from "@/app/images/hero5.png";
 import leaf from "@/app/images/leaf.png";
 
 export default function Hero() {

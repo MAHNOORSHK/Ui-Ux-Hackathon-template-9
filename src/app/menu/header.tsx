@@ -1,9 +1,7 @@
 'use client';
-// resopnsive
 import { useState } from 'react'
 import Link from "next/link"
-import Image from "next/image"
-import { IoCloseCircleOutline, IoSearch } from "react-icons/io5";
+import { IoCloseCircleOutline} from "react-icons/io5";
 import { LuMenu } from "react-icons/lu";
 import { IoIosSearch } from "react-icons/io";
 import { LuUserRound } from "react-icons/lu";
