@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import signup1 from "@/app/images/signup1.png"
 import signup2 from "@/app/images/signup2.png"
 import signup3 from "@/app/images/signup3.png"
 import Navbar from "../menu/header";

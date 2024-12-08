@@ -15,7 +15,7 @@ export default function Hero() {
           {/* Left Content */}
           <div className="max-w-md">
             <h2 className="text-[#FF9F0D] text-lg font-bold font-Great Vibes">
-              It's Quick & Amusing!
+              Its Quick & Amusing!
             </h2>
             <h1 className="text-5xl font-extrabold text-[#FFFFFF] mt-2 leading-tight">
               <span className="text-[#FF9F0D]">Th</span>e Art of Speed <br /> Food Quality
