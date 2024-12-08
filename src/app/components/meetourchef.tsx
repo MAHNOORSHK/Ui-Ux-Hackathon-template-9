@@ -7,9 +7,9 @@ import chef4 from "@/app/images/chef4.png";
 
 export default function MeetOurChef() {
     return (
-        <section className="text-[#FFFFFF] bg-black border-2 border-red-600">
-            <div className="px-8 py-24 mx-auto border-2 border-red-600">
-                <div className="flex flex-col text-center w-full border-2 border-red-600">
+        <section className="text-[#FFFFFF] bg-black">
+            <div className="px-8 py-24 mx-auto ">
+                <div className="flex flex-col text-center w-full ">
                     <h1 className="text-2xl font-medium text-[#FF9F0D]">Chefs</h1>
                     <p className='text-[38px] font-bold'><span className="text-[#FF9F0D]">Me</span>et Our Chef</p>
                 </div>
