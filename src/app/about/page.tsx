@@ -36,61 +36,70 @@ export default function About() {
 
       {/* 2 Section */}
       <section className="text-white body-font">
-        <div className="container mx-auto flex px-5 py-2">
-          <div className="flex flex-col md:flex-row items-center md:space-x-4 mt-2 ml-2">
-            <Image
-              className="object-cover object-center w-336px h-536px mt-530px ml-300px radius-6px"
-              alt="hero"
-              src={aboutpg1}
-            />
-          </div>
-          {/* Right Images */}
-          <div className="flex flex-col space-y-2 space-x-2 mt-2 ml-2">
-            <Image
-              className="object-cover object-center w-309px h-271px mt-584px ml-660px radius-6px"
-              alt="image2"
-              src={aboutpg2}
-              width={309} height={271}
-            />
-            {/* Bottom Image */}
-            <Image
-              className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
-              alt="image3"
-              src={aboutpg3}
-              width={309} height={382}
-            />
-          </div>
-          {/* Text Content and Buttons */}
-          <div className=" pt-20 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="text-lg mb-4 font-bold text-[#FF9F0D]">
-              About us
-            </h1>
-            <p className="text-black title-font text-3xl font-bold">
-              Food is an important part of a balanced Diet
-            </p>
-            <p className="mb-8 leading-relaxed mt-8 text-[#333333]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.
-            </p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white h-fit bg-[#FF9F0D] border-0 py-2 px-3 focus:outline-none rounded text-lg">
-                Show More
-              </button>
-              <button className="ml-4 inline-flex text-black  border-0 py-2 px-3 focus:outline-none rounded text-lg">
-                <IoPlayOutline className="mr-2 block bg-[#FF9F0D] w-7 h-fit rounded-full items-center" />
-                Watch video
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto flex px-5 py-2 flex-wrap md:flex-nowrap">
+    
+    {/* Left Hero Image */}
+    <div className="flex flex-col md:flex-row items-center md:space-x-4 mt-2 ml-2">
+      <Image
+        className="object-cover object-center w-[250px] h-[400px] md:w-[336px] md:h-[536px] mt-2 md:mt-0 radius-6px"
+        alt="hero"
+        src={aboutpg1}
+      />
+    </div>
+    
+    {/* Right Images - stacked on smaller devices */}
+    <div className="flex flex-col space-y-2 space-x-0 md:space-x-4 mt-2 ml-2">
+      <Image
+        className="object-cover object-center w-[220px] h-[200px] md:w-[309px] md:h-[271px] radius-6px"
+        alt="image2"
+        src={aboutpg2}
+        width={309}
+        height={271}
+      />
+      <Image
+        className="object-cover object-center w-[220px] h-[250px] md:w-[309px] md:h-[382px] radius-6px"
+        alt="image3"
+        src={aboutpg3}
+        width={309}
+        height={382}
+      />
+    </div>
+    
+    {/* Text Content Section */}
+    <div className="pt-8 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 className="text-lg mb-2 md:text-xl font-bold text-[#FF9F0D]">
+        About us
+      </h1>
+      <p className="text-black title-font text-xl md:text-3xl font-bold">
+        Food is an important part of a balanced Diet
+      </p>
+      <p className="mb-6 leading-relaxed mt-4 text-[#333333] text-sm md:text-base md:leading-relaxed">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        diam pellentesque bibendum non dui volutpat fringilla bibendum.
+        Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+        Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
+        velit in consequat.
+      </p>
+      <div className="flex flex-wrap justify-center md:justify-start gap-2">
+        {/* Button 1 */}
+        <button className="inline-flex text-white bg-[#FF9F0D] border-0 py-2 px-4 focus:outline-none rounded text-lg">
+          Show More
+        </button>
+        {/* Button 2 */}
+        <button className="inline-flex text-black bg-white border-0 py-2 px-4 focus:outline-none rounded text-lg">
+          <IoPlayOutline className="mr-2 w-5 h-5" />
+          Watch Video
+        </button>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
 
       {/* 3 Section */}
-      <section className="text-white body-font">
-        <div className="container mx-auto flex px-5 items-center justify-center flex-col">
+      <section className="text-white">
+        <div className="mx-auto flex px-5 items-center justify-center flex-col">
           <h1 className="text-3xl text-white text-bold mt-3">Why Choose Us</h1>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br />
           pellentesque bibendum non dui volutpat fringilla bibendum.

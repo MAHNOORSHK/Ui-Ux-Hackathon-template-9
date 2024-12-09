@@ -24,7 +24,6 @@ export default function ErrorPage() {
       </div>
     </section>
     <div className="min-h-screen bg-white">
-      {/* Signup Form Section */}
       <section className="p-10 relative bg-white flex flex-col items-center">
         <div className="w-[630px] text-center">
           <h3 className="text-[96px] font-bold text-[#FF9F0D] mb-6">404</h3>
