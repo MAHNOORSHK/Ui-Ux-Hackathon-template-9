@@ -161,7 +161,7 @@ export default function Menu() {
           {/* Image Section */}
           <div className="w-full lg:w-[448px] mb-8 lg:mb-0">
             <Image
-              src={menupage1}
+              src={menupage3}
               alt="Starter dish"
               width={448}
               height={626}
@@ -261,7 +261,7 @@ export default function Menu() {
           {/* Image Section */}
           <div className="w-full lg:w-[448px] mb-8 lg:mb-0">
             <Image
-              src={menupage2}
+              src={menupage4}
               alt="Main Course Dish"
               width={448}
               height={626}
